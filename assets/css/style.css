@@ -1,0 +1,112 @@
+@font-face {
+  font-family: analog;
+  src: url(/assets/font/DigitalNormal-xO6j.otf);
+}
+
+html{
+  font-family: analog;
+}
+
+body{
+  background-color: #f6f1ee;
+}
+
+.name{
+  margin: auto;
+  font-size: 100px;
+  text-align: center;
+  color: #4f4a45;
+}
+
+.calculator{
+  margin: auto;
+  position: relative;
+  top:30px;
+  width: 400px;
+  height: 700px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #FEE8C7;
+}
+
+.display{
+  width: 90%;
+  height: 200px;
+  background-color: rgba(125 140 115);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  word-break: break-all;
+}
+
+
+#result{
+  font-size: 40px;
+  float: right;
+}
+
+.keyboard{
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+}
+
+#clear,
+#divide,
+#multiply,
+#subtract,
+#add,
+#equal,
+#ac,
+#memory,
+#percent{
+  width: 70px;
+  height: 70px;
+  background-color: #e6793b;
+  border-radius: 35px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#seven,
+#eight,
+#nine,
+#four,
+#five,
+#six,
+#one,
+#two,
+#three,
+#dot{
+  width: 70px;
+  height: 70px;
+  background-color: #f6f1ee;
+  border-radius: 35px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 10px;
+  color: #4f4a45;
+}
+
+#zero{
+  width: 160px;
+  height: 70px;
+  background-color: #f6f1ee;
+  border-radius: 35px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 10px;
+  color: #4f4a45;
+}
+
+.column{
+  margin: auto;
+  float: left;
+  width: 25%;
+}
