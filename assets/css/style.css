@@ -44,12 +44,12 @@ body{
 #result{
   font-size: 40px;
   float: right;
+  margin-right: 5px;
 }
 
 .keyboard{
   margin: auto;
   width: 90%;
-  justify-content: center;
 }
 
 #clear,
@@ -69,6 +69,7 @@ body{
   text-align: center;
   line-height: 70px;
   margin-bottom: 10px;
+  margin-left: 10px;
   color: white;
 }
 
@@ -90,6 +91,7 @@ body{
   text-align: center;
   line-height: 70px;
   margin-bottom: 10px;
+  margin-left: 10px;
   color: #4f4a45;
 }
 
@@ -102,11 +104,61 @@ body{
   text-align: center;
   line-height: 70px;
   margin-bottom: 10px;
+  margin-left: 10px;
   color: #4f4a45;
 }
 
+.button#one:hover,
+.button#two:hover,
+.button#three:hover,
+.button#four:hover,
+.button#five:hover,
+.button#six:hover,
+.button#seven:hover,
+.button#eight:hover,
+.button#nine:hover,
+.button#zero:hover,
+.button#dot:hover{
+  cursor: pointer;
+  color: #f6f1ee;
+  background-color: #4f4a45;
+}
+
+.button.operator#multiply:hover,
+.button.operator#divide:hover,
+.button.operator#subtract:hover,
+.button.operator#add:hover,
+.button.equal#equal:hover,
+.button#ac:hover,
+.button#memory:hover,
+.button#percent:hover{
+  cursor: pointer;
+  color: #e6793b;
+  background-color: white;
+}
+
+.button#one:active,
+.button#two:active,
+.button#three:active,
+.button#four:active,
+.button#five:active,
+.button#six:active,
+.button#seven:active,
+.button#eight:active,
+.button#nine:active,
+.button#zero:active,
+.button#dot:active,
+.button.operator#multiply:active,
+.button.operator#divide:active,
+.button.operator#subtract:active,
+.button.operator#add:active,
+.button.equal#equal:active,
+.button#ac:active,
+.button#memory:active,
+.button#percent:active{
+  transform: scale(0.95);
+}
 .column{
-  margin: auto;
-  float: left;
   width: 25%;
+  float: left;
 }
